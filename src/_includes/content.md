@@ -1,17 +1,14 @@
-Twelvety is a pre-configured Eleventy starter project built to be fast. It includes:
+Security researcher, bug hunter, software engineer.
 
-  - Component architecture
-  - CSS pipeline using Sass, PostCSS and CleanCSS
-  - JS pipeline using Browserify, Babel and Uglify
-  - Page-specific CSS and JS
-  - Inline critical CSS and defer non-critical CSS
-  - Minified HTML, CSS and JS
-  - Responsive picture shortcode **with AVIF and WebP support**
-  - Content-hash of assets
+**Publications:**
 
-See the [GitHub repository](https://github.com/gregives/twelvety) for documentation.
+  - [Exploiting dynamic rendering engines to take control of web apps](https://r2c.dev/blog/2020/exploiting-dynamic-rendering-engines-to-take-control-of-web-apps/)
+  - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/)
 
-Made and used by [Greg Ives](https://gregives.co.uk)
+**Links:**
 
-<!-- Markdown images will automatically use the responsive picture shortcode -->
-![Time-lapse of a blue and white train moving fast through a station](train.jpg)
+  - [LinkedIn](https://www.linkedin.com/in/vasilii-ermilov/)
+  - [Github](https://github.com/inkz)
+  - [Twitter](https://twitter.com/ermil0v)
+  - [Keybase](https://keybase.io/ermilov)
+  - [email](mailto:vasilii.a.ermilov@gmail.com)
