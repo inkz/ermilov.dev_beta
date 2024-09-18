@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/sg-2024"
-  to = "https://github.com/inkz/presentations/blob/4282728636ccb01e9ec44a8d6dbc9f9247a54c92/2024-bsides-singapore.pdf"
+  to = "https://inkz.github.io/presentations/2024-bsides-singapore.pdf"
   status = 301
   force = false
