@@ -3,6 +3,11 @@ Security researcher, bug hunter, software engineer.
 **Publications:**
 
 <ul>
+  <li>
+		<a href="https://semgrep.dev/blog/2025/a-technical-deep-dive-into-semgreps-javascript-vulnerability-detection/" target="_blank" rel=”noopener”>
+			A Technical Deep Dive into Semgrep’s JavaScript Vulnerability Detection
+		</a>
+	</li>
 	<li>
 		<a href="https://semgrep.dev/blog/2020/exploiting-dynamic-rendering-engines-to-take-control-of-web-apps/" target="_blank" rel=”noopener”>
 			Exploiting dynamic rendering engines to take control of web apps
@@ -38,5 +43,5 @@ Security researcher, bug hunter, software engineer.
 	<li><a href="https://www.linkedin.com/in/vasilii-ermilov/" target="_blank" rel=”noopener”>LinkedIn</a></li>
 	<li><a href="https://github.com/inkz" target="_blank" rel=”noopener”>Github</a></li>
 	<li><a href="https://twitter.com/ermil0v" target="_blank" rel=”noopener”>Twitter</a></li>
-	<li><a href="mailto:vasilii.a.ermilov@gmail.com" target="_blank" rel=”noopener”>email</a></li>
+	<li><a href="mailto:vasilii.a.ermilov@gmail.com" target="_blank" rel=”noopener”>E-mail</a></li>
 </ul>
