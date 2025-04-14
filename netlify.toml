@@ -16,3 +16,9 @@
   to = "https://inkz.github.io/presentations/2025-owasp-snowfroc.pdf"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/bsides2025"
+  to = "https://inkz.github.io/presentations/2025-bsides-seattle.pdf"
+  status = 301
+  force = false
