@@ -22,3 +22,9 @@
   to = "https://inkz.github.io/presentations/2025-bsides-seattle.pdf"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/gh-webinar"
+  to = "https://inkz.github.io/presentations/2025-gh-semgrep-webinar.pdf"
+  status = 301
+  force = false
