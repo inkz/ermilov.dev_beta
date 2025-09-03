@@ -4,6 +4,11 @@ Security researcher, bug hunter, software engineer.
 
 <ul>
   <li>
+		<a href="https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/" target="_blank" rel=”noopener”>
+			Finding vulnerabilities in modern web apps using Claude Code and OpenAI Codex
+		</a>
+	</li>
+  <li>
 		<a href="https://semgrep.dev/blog/2025/a-technical-deep-dive-into-semgreps-javascript-vulnerability-detection/" target="_blank" rel=”noopener”>
 			A Technical Deep Dive into Semgrep’s JavaScript Vulnerability Detection
 		</a>
