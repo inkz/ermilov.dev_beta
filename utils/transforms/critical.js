@@ -1,11 +1,11 @@
 const { JSDOM } = require('jsdom')
-const critical = require('critical')
 
 // Twelvety options from .twelvety.js
 const twelvety = require('@12ty')
 
 module.exports = async function(content, outputPath) {
   if (outputPath && outputPath.endsWith('.html') && twelvety.env === 'production') {
+    const critical = await import('critical')
     const { css } = await critical.generate({
       base: twelvety.dir.output,
       html: content,
