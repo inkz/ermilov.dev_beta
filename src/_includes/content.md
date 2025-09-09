@@ -1,5 +1,10 @@
 Security researcher, bug hunter, software engineer.
 
+**Links:**
+<div>
+	<a href="https://www.linkedin.com/in/vasilii-ermilov/" target="_blank" rel=”noopener”>LinkedIn</a></li>,  <a href="https://github.com/inkz" target="_blank" rel=”noopener”>Github</a></li>, <a href="https://twitter.com/ermil0v" target="_blank" rel=”noopener”>Twitter</a></li>, <a href="mailto:vasilii.a.ermilov@gmail.com" target="_blank" rel=”noopener”>E-mail</a>
+</div>
+
 **Publications:**
 
 <ul>
@@ -30,23 +35,39 @@ Security researcher, bug hunter, software engineer.
 
 <ul>
 	<li>
-		<a href="https://www.youtube.com/live/RL-TYdj2QYE?si=qii81p0kpC7oE5tI" target="_blank" rel=”noopener”>
-			OWASP Toronto (April 2022): <strong>Saving a SAST Program in Distress</strong>
+		<a href="https://ermilov.dev/bsides2025" target="_blank" rel=”noopener”>
+			<strong>Most common vulnerabilities in Github Actions</strong>
 		</a>
+		<ul>
+			<li>
+				Bsides Seattle (April 2025)
+			</li>
+			<li>
+				OWASP SnowFROC (March 2025)
+			</li>
+			<li>
+				BSides Singapore (September 2024)
+			</li>
+		</ul>
 	</li>
 	<li>
-		<a href="https://www.youtube.com/live/Y54jVUBG7ks?si=CKNbaMO1lAyxrp4R" target="_blank" rel=”noopener”>
-			OWASP Ottawa (July 2021): <strong>Scale Security with Secure Defaults & Eliminating Bug Classes</strong>
-		</a>
+		<strong>Saving a SAST Program in Distress</strong>
+		<ul>
+			<li>
+			<a href="https://www.youtube.com/live/RL-TYdj2QYE?si=qii81p0kpC7oE5tI" target="_blank" rel=”noopener”>
+				OWASP Toronto (April 2022)
+			</a>
+			</li>
+		</ul>
 	</li>
-</ul>
-
-
-**Links:**
-
-<ul>
-	<li><a href="https://www.linkedin.com/in/vasilii-ermilov/" target="_blank" rel=”noopener”>LinkedIn</a></li>
-	<li><a href="https://github.com/inkz" target="_blank" rel=”noopener”>Github</a></li>
-	<li><a href="https://twitter.com/ermil0v" target="_blank" rel=”noopener”>Twitter</a></li>
-	<li><a href="mailto:vasilii.a.ermilov@gmail.com" target="_blank" rel=”noopener”>E-mail</a></li>
+	<li>
+		<strong>Scale Security with Secure Defaults & Eliminating Bug Classes</strong>
+		<ul>
+			<li>
+				<a href="https://www.youtube.com/live/Y54jVUBG7ks?si=CKNbaMO1lAyxrp4R" target="_blank" rel=”noopener”>
+					OWASP Ottawa (July 2021)
+				</a>
+			</li>
+		</ul>
+	</li>
 </ul>
