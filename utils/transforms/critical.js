@@ -9,7 +9,6 @@ module.exports = async function(content, outputPath) {
     const { css } = await critical.generate({
       base: twelvety.dir.output,
       html: content,
-      minify: false,
       width: 2560,
       height: 1600
     })
