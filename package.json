@@ -25,7 +25,7 @@
     "browserify": "^17.0.1",
     "clean-css": "^5.3.3",
     "critical": "^7.2.1",
-    "cross-env": "^10.0.0",
+    "cross-env": "^7.0.3",
     "deasync": "^0.1.30",
     "html-minifier": "^4.0.0",
     "instant.page": "^5.2.0",
