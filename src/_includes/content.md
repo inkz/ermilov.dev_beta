@@ -9,6 +9,11 @@ Security researcher, bug hunter, software engineer.
 
 <ul>
   <li>
+		<a href="https://semgrep.dev/blog/2025/can-llms-detect-idors-understanding-the-boundaries-of-ai-reasoning/" target="_blank" rel=”noopener”>
+			Can LLMs Detect IDORs? Understanding the Boundaries of AI Reasoning
+		</a>
+	</li>
+  <li>
 		<a href="https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/" target="_blank" rel=”noopener”>
 			Finding vulnerabilities in modern web apps using Claude Code and OpenAI Codex
 		</a>
