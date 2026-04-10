@@ -45,7 +45,7 @@ Security researcher, bug hunter, software engineer.
 		</a>
 		<ul>
 			<li>
-				Bsides Seattle (April 2025)
+				BSides Seattle (April 2025)
 			</li>
 			<li>
 				OWASP SnowFROC (March 2025)
