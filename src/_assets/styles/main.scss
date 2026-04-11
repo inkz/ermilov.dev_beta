@@ -1,9 +1,11 @@
 @use 'normalize.css/normalize';
+@use 'fonts';
 @use 'variables' as *;
 @use 'mixins' as *;
 
 html {
-  font-family: system-ui;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9em;
   line-height: 1.5;
 }
 
