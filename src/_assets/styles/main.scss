@@ -1,6 +1,6 @@
-@import 'normalize.css/normalize';
-@import 'variables';
-@import 'mixins';
+@use 'normalize.css/normalize';
+@use 'variables' as *;
+@use 'mixins' as *;
 
 html {
   font-family: system-ui;

@@ -9,23 +9,21 @@ const outdent = require('outdent')
 const twelvety = require('@12ty')
 
 // Render styles using dart-sass
-// Documentation: https://github.com/sass/dart-sass#javascript-api
+// Documentation: https://sass-lang.com/documentation/js-api/
 function renderStyles(data) {
-  return new Promise((resolve, reject) => {
-    sass.render({
-      data,
-      // Allow `@import` from files within styles directory and node modules
-      includePaths: [
+  try {
+    const result = sass.compileString(data, {
+      // Allow `@import` and `@use` from files within styles directory and node modules
+      loadPaths: [
         path.join(process.cwd(), twelvety.dir.input, twelvety.dir.styles),
         path.join(process.cwd(), 'node_modules')
       ],
-      indentedSyntax: twelvety.indentedSass
-    }, (error, result) => {
-      if (error)
-        reject(error)
-      resolve(result.css.toString())
+      syntax: twelvety.indentedSass ? 'indented' : 'scss'
     })
-  })
+    return Promise.resolve(result.css)
+  } catch (error) {
+    return Promise.reject(error)
+  }
 }
 
 module.exports = function(config) {
@@ -56,8 +54,41 @@ module.exports = function(config) {
     if (!STYLES.hasOwnProperty(chunk))
       return ''
 
-    // Join all the styles in the chunk
-    const joined = STYLES[chunk].join('\n')
+    // Separate @use/@forward statements from other styles
+    // @use and @forward must come before any other rules in Sass
+    const useStatements = []
+    const otherStyles = []
+
+    for (const style of STYLES[chunk]) {
+      const lines = style.split('\n')
+      const styleUseStatements = []
+      const styleOtherLines = []
+
+      for (const line of lines) {
+        const trimmed = line.trim()
+        if (trimmed.startsWith('@use ') || trimmed.startsWith('@forward ')) {
+          styleUseStatements.push(line)
+        } else {
+          styleOtherLines.push(line)
+        }
+      }
+
+      // Collect unique @use statements
+      for (const useStmt of styleUseStatements) {
+        if (!useStatements.includes(useStmt)) {
+          useStatements.push(useStmt)
+        }
+      }
+
+      // Only add other styles if there are any non-empty lines
+      const otherContent = styleOtherLines.join('\n').trim()
+      if (otherContent) {
+        otherStyles.push(otherContent)
+      }
+    }
+
+    // Join with @use statements first, then other styles
+    const joined = [...useStatements, ...otherStyles].join('\n')
     // Render sass using dart-sass
     const rendered = await renderStyles(joined)
     // Input path used by PostCSS
