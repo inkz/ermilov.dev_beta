@@ -21,6 +21,9 @@ module.exports = function (config) {
   addTransforms(config)
   addShortcodes(config)
 
+  // Copy fonts to output directory
+  config.addPassthroughCopy('src/_assets/fonts')
+
   // Deep merge when combining the Data Cascade
   // Documentation: https://www.11ty.dev/docs/data-deep-merge/
   config.setDataDeepMerge(true)
