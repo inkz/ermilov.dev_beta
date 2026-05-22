@@ -34,3 +34,15 @@
   to = "https://inkz.github.io/presentations/2025-cyber-toronto.pdf"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/bsides-calgary-26"
+  to = "https://inkz.github.io/presentations/2026-bsides-calgary.pdf"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/bsides-vancouver-26"
+  to = "https://inkz.github.io/presentations/2026-bsides-vancouver.pdf"
+  status = 301
+  force = false
