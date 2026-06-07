@@ -12,12 +12,12 @@ Security researcher, bug hunter, software engineer.
 			Can LLMs Detect IDORs? Understanding the Boundaries of AI Reasoning
 		</a>
 	</li>
-  <li>
+  	<li>
 		<a href="https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/" target="_blank" rel=”noopener”>
 			Finding vulnerabilities in modern web apps using Claude Code and OpenAI Codex
 		</a>
 	</li>
-  <li>
+  	<li>
 		<a href="https://semgrep.dev/blog/2025/a-technical-deep-dive-into-semgreps-javascript-vulnerability-detection/" target="_blank" rel=”noopener”>
 			A Technical Deep Dive into Semgrep’s JavaScript Vulnerability Detection
 		</a>
@@ -38,39 +38,52 @@ Security researcher, bug hunter, software engineer.
 **Presentations:**
 
 <ul>
-	<li>
-		<a href="https://ermilov.dev/bsides2025" target="_blank" rel=”noopener”>
-			<strong>Most common vulnerabilities in Github Actions</strong>
-		</a>
+	<li class="pres-title">
+		<strong>Can LLMs Really Find IDORs? Limits of AI Security Reasoning</strong>
 		<ul>
 			<li>
-				BSides Seattle (April 2025)
+				BSides Vancouver (June 2026) [<a href="https://ermilov.dev/bsides-vancouver-26" target="_blank" rel=”noopener”>slides</a>]
 			</li>
 			<li>
-				OWASP SnowFROC (March 2025)
-			</li>
-			<li>
-				BSides Singapore (September 2024)
+				BSides Calgary (May 2026) [<a href="https://ermilov.dev/bsides-calgary-26" target="_blank" rel=”noopener”>slides</a>]
 			</li>
 		</ul>
 	</li>
-	<li>
+	<li class="pres-title">
+		<strong>Finding vulnerabilities in modern web apps using LLMs</strong>
+		<ul>
+			<li>
+				CyberToronto (December 2025) [<a href="https://ermilov.dev/cyber-toronto" target="_blank" rel=”noopener”>slides</a>]
+			</li>
+		</ul>
+	</li>
+	<li class="pres-title">
+		<strong>Most common vulnerabilities in Github Actions</strong>
+		<ul>
+			<li>
+				BSides Seattle (April 2025) [<a href="https://ermilov.dev/bsides2025" target="_blank" rel=”noopener”>slides</a>]
+			</li>
+			<li>
+				OWASP SnowFROC (March 2025) [<a href="https://ermilov.dev/snowfroc" target="_blank" rel=”noopener”>slides</a>]
+			</li>
+			<li>
+				BSides Singapore (September 2024) [<a href="https://ermilov.dev/sg-2024" target="_blank" rel=”noopener”>slides</a>]
+			</li>
+		</ul>
+	</li>
+	<li class="pres-title">
 		<strong>Saving a SAST Program in Distress</strong>
 		<ul>
 			<li>
-			<a href="https://www.youtube.com/live/RL-TYdj2QYE?si=qii81p0kpC7oE5tI" target="_blank" rel=”noopener”>
-				OWASP Toronto (April 2022)
-			</a>
+				OWASP Toronto (April 2022) [<a href="https://www.youtube.com/live/RL-TYdj2QYE?si=qii81p0kpC7oE5tI" target="_blank" rel=”noopener”>video</a>]
 			</li>
 		</ul>
 	</li>
-	<li>
+	<li class="pres-title">
 		<strong>Scale Security with Secure Defaults & Eliminating Bug Classes</strong>
 		<ul>
 			<li>
-				<a href="https://www.youtube.com/live/Y54jVUBG7ks?si=CKNbaMO1lAyxrp4R" target="_blank" rel=”noopener”>
-					OWASP Ottawa (July 2021)
-				</a>
+					OWASP Ottawa (July 2021) [<a href="https://www.youtube.com/live/Y54jVUBG7ks?si=CKNbaMO1lAyxrp4R" target="_blank" rel=”noopener”>video</a>]
 			</li>
 		</ul>
 	</li>
