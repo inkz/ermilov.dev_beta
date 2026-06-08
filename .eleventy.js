@@ -24,6 +24,11 @@ module.exports = function (config) {
   // Copy fonts to output directory
   config.addPassthroughCopy('src/_assets/fonts')
 
+  // Copy favicon assets to the site root
+  config.addPassthroughCopy({ 'src/favicon.svg': 'favicon.svg' })
+  config.addPassthroughCopy({ 'src/favicon.ico': 'favicon.ico' })
+  config.addPassthroughCopy({ 'src/apple-touch-icon.png': 'apple-touch-icon.png' })
+
   // Deep merge when combining the Data Cascade
   // Documentation: https://www.11ty.dev/docs/data-deep-merge/
   config.setDataDeepMerge(true)
