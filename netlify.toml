@@ -46,3 +46,9 @@
   to = "https://inkz.github.io/presentations/2026-bsides-vancouver.pdf"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/bsides-mtl-26"
+  to = "https://inkz.github.io/presentations/2026-bsides-montreal.pdf"
+  status = 301
+  force = false
