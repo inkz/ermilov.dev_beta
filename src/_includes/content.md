@@ -41,6 +41,9 @@ Security researcher, bug hunter, software engineer.
 	<li class="pres-title">
 		<strong>Can LLMs Really Find IDORs? Limits of AI Security Reasoning</strong>
 		<ul>
+      <li>
+				BSides Montreal (September 2026) [<a href="https://ermilov.dev/bsides-mtl-26" target="_blank" rel=”noopener”>slides</a>]
+			</li>
 			<li>
 				BSides Vancouver (June 2026) [<a href="https://ermilov.dev/bsides-vancouver-26" target="_blank" rel=”noopener”>slides</a>]
 			</li>
