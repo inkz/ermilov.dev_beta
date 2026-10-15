@@ -48,7 +48,7 @@
   force = false
 
 [[redirects]]
-  from = "/bsides-mtl-26"
-  to = "https://inkz.github.io/presentations/2026-bsides-montreal.pdf"
+  from = "/idor-webinar"
+  to = "https://inkz.github.io/presentations/2026-idor-webinar.pdf"
   status = 301
   force = false
